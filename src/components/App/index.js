@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Header from '../Header';
+
 // import *filename* from '../foldername'
 
 class App extends Component {
@@ -8,7 +10,7 @@ class App extends Component {
       <React.Fragment>
         {/* <Component /> */}
         <main>
-            {/* <Component /> */}
+            <Header />
         </main>
         {/* <Component /> */}
       </React.Fragment>
