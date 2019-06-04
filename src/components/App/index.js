@@ -7,13 +7,11 @@ import Header from '../Header';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        {/* <Component /> */}
-        <main>
-            <Header />
-        </main>
-        {/* <Component /> */}
-      </React.Fragment>
+        <div className="App">
+            <main>
+                <Header />
+            </main>
+        </div>
     );
   }
 }
