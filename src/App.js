@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactDOM from 'react-dom';
 
 import App from './components/App';
 import './App.css';
 
 ReactDOM.render(
-  <App />
+  <React.Fragment>
+    <App />
+  </React.Fragment>,
+  document.getElementById('root')
 )
 
 export default App;
